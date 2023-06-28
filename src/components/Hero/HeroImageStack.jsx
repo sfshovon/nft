@@ -15,8 +15,8 @@ const HeroImageStack = () => {
           </div>
         </div>
         <img src="/Section-1/Hero-Circle.png" alt="circle" className="absolute top-20 md:top-48 -left-12 md:-left-16 w-24 h-24 md:w-auto md:h-auto"/>
-        <img src="/Section-1/Hero-1.png" alt="Image 1" className="rounded-md mb-2 h-full w-full"/>
-        <div className="glass text-white text-sm absolute left-8 md:left-0 bottom-2 md:bottom-8 grid grid-cols-2 w-4/5 md:w-5/6 p-2 rounded-xl gap-2 md:gap-0">
+        <img src="/Section-1/Hero-1.png" alt="Image 1"/>
+        <div className="glass text-white text-xs md:text-sm absolute left-8 bottom-2 md:bottom-8 grid grid-cols-2 w-4/5 md:w-5/6 p-2 rounded-xl gap-2 md:gap-0">
           <div className="col-span-1">
             <p>Current Bid</p>
             <p>0.25 ETH</p>
@@ -27,11 +27,11 @@ const HeroImageStack = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center z-20 absolute left-20 top-4">
-        <img src="/Section-1/Hero-2.png" alt="Image 2" className="rounded-md mb-2"/>
+      <div className="flex flex-col items-center justify-center">
+        <img src="/Section-1/Hero-2.png" alt="Image 2" className="z-20 absolute left-6 md:left-20 w-44 h-44 md:w-auto md:h-auto md:top-4"/>
       </div>
-      <div className="flex flex-col items-center justify-center z-10 absolute left-40 top-8">
-        <img src="/Section-1/Hero-3.png" alt="Image 3" className="rounded-md mb-2"/>
+      <div className="flex flex-col items-center justify-center">
+        <img src="/Section-1/Hero-3.png" alt="Image 3" className="z-10 absolute left-10 md:left-40 w-44 h-40 md:w-auto md:h-auto md:top-8"/>
       </div>
     </div>
   );
