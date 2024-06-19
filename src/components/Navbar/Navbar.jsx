@@ -1,18 +1,17 @@
 import Image from "next/image";
-import Link from "next/link";
 import { FiMenu, FiSearch } from "react-icons/fi";
 
 const Navbar = () => {
   const menuItems = (
     <>
       <li>
-        <Link href="/market_place">Market Place</Link>
+        <div>Market Place</div>
       </li>
       <li>
-        <Link href="/resource">Resource</Link>
+        <div>Resource</div>
       </li>
       <li>
-        <Link href="/about">About</Link>
+        <div>About</div>
       </li>
     </>
   );
